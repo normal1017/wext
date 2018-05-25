@@ -1,0 +1,7 @@
+<!--pages/index/index/index.wxml-->
+<view class="container">
+    <view class='panel-box'>
+        Wext
+    </view>
+    <button bindtap='helloWext'>Hello Wext</button>
+</view>
