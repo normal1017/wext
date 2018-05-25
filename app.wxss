@@ -1,0 +1,32 @@
+/**app.wxss**/
+
+page {
+    height: 100%;
+}
+
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: initiali;
+    /* padding: 0 0; */
+    box-sizing: border-box;
+    background: #f9f9f9;
+    overflow: hidden;
+    min-height: 100vh;
+    /* box-sizing: border-box; */
+    padding: 0px 0px 0px 0px ;
+}
+
+.container::before {
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: ' ';
+    width: 100%;
+    height: 1rpx;
+    background-color: #e2e2e2;
+    z-index: 5;
+}
