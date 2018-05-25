@@ -6,8 +6,9 @@ import { wxRequest } from './request.js';
 import { checkNetwork } from './checkNetwork.js';
 import { newDate, getDate, getDay, getDateVisible } from './time.js';
 import { showModal, showToast } from './feedback.js';
-import { userLogin } from './userLogin.js'
-import { validateURL, validateEmail, validateTelephone, validateNull } from './validate.js'
+import { userLogin } from './userLogin.js';
+import { validateURL, validateEmail, validateTelephone, validateNull } from './validate.js';
+import { sha1 } from './encrypt.js';
 
 module.exports = {
     wxRequest, //网络请求组件
@@ -24,4 +25,5 @@ module.exports = {
     getDate, //获取当前日期
     getDay, //获取当前时间为星期几
     getDateVisible, //把时间转化为「 多久前」
+    sha1, //sha1加密函数
 };
